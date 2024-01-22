@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw 1vw;
+  background: #000;
+}
+.container {
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  background: #000;
+  display: flex;
+}
+.title {
+  font-size: 10vw;
+  font-weight: 600;
+  color: white;
+  z-index: 99999999;
+  position: absolute;
+  left: 49.5%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+}
+.title span {
+  font-family: silk serif;
+  background-image: url(https://img.freepik.com/premium-photo/green-leaves-background-nature-backgrounds-green-desktop-wallpaper-beautiful-leaves_882954-23691.jpg);
+  background-size: cover;
+  background-position: left;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+a {
+  transition: color 0.4s;
+}
+.container-left {
+  background: lavender;
+  background-image: url(https://img.freepik.com/premium-photo/green-leaves-background-nature-backgrounds-green-desktop-wallpaper-beautiful-leaves_882954-23691.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.container-right {
+  background: #cacaca;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.left-nav {
+  height: 4vw;
+  background: transparent;
+  color: white;
+  padding: 0 1vw;
+  display: flex;
+  align-items: center;
+  column-gap: 2vw;
+  justify-content: start;
+}
+.left-nav h1 {
+  font-size: 1vw;
+  font-weight: 300;
+}
+.left-nav a {
+  text-decoration: none;
+  color: white;
+
+  display: flex;
+  column-gap: 1vw;
+}
+.left-nav a i {
+  font-size: 2vw;
+}
+.left-nav a i:hover {
+  color: green;
+}
+.left-info {
+  width: 60%;
+  height: 25%;
+  background: transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  row-gap: 0.5vw;
+}
+.left-info h1 {
+  font-size: 2vw;
+  font-weight: 500;
+}
+.left-info p {
+  width: 80%;
+  font-size: 1vw;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.right-nav {
+  height: 4vw;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2vw;
+}
+.right-nav a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: white;
+  font-weight: 400;
+}
+.right-nav a:nth-child(1) {
+  color: green;
+}
+.right-nav a:hover {
+  color: green;
+}
+.right-info {
+  width: 50%;
+  height: 15%;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.right-info h1 {
+  font-size: 15vw;
+  position: relative;
+  top: 50%;
+  color: white;
+}
+.right-info h1 span {
+  background-image: url(https://img.freepik.com/premium-photo/green-leaves-background-nature-backgrounds-green-desktop-wallpaper-beautiful-leaves_882954-23691.jpg);
+  background-size: cover;
+  background-position: left;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
